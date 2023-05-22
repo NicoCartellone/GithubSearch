@@ -2,6 +2,7 @@
 
 import SunIcon from '@/components/icons/SunIcon'
 import MoonIcon from '@/components/icons/MoonIcon'
+import Loading from './Loading'
 import { useState, useEffect } from 'react'
 
 const initialThemeState = () => {
@@ -34,7 +35,7 @@ const Navbar = () => {
   }, [theme]);
   
   if (!hasMounted) {
-    return <>Cargando...</>;
+    return <Loading/>;
   }
 
   const handleTheme = () => {
