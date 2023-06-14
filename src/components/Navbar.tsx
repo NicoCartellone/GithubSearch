@@ -1,4 +1,4 @@
-"use client"
+"use client";
 
 import SunIcon from '@/components/icons/SunIcon'
 import MoonIcon from '@/components/icons/MoonIcon'

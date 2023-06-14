@@ -56,7 +56,7 @@ const UserCardInfo = ({ user } : Props) => {
                 <p className='text-xl font-bold'>{ user.following }</p>
             </article>
         </div>
-        <div className='mt-4 space-y-3 md:grid-cols-2 section-social md:grid'>
+        <div className='items-center justify-center mt-4 space-y-1 md:grid-cols-2 section-social md:grid'>
             <article className='flex space-x-2'>
                 <i>
                     <LocationIcon 

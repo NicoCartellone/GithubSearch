@@ -3,6 +3,8 @@ const SvgComponent = (props: SVGProps<SVGSVGElement>) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     xmlnsXlink="http://www.w3.org/1999/xlink"
+    width={256}
+    height={260}
     preserveAspectRatio="xMidYMid"
     viewBox="0 0 256 259.3"
     {...props}
