@@ -5,7 +5,7 @@ import { Roboto_Mono } from 'next/font/google'
 const RobotoMono = Roboto_Mono({ subsets: ['latin'] })
 
 export const metadata = {
-  title: 'Githun Search',
+  title: 'Github Search',
   description: 'Search github username',
 }
 
